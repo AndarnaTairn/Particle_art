@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #050510;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+#webgl-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+#ui-layer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    pointer-events: none;
+    text-shadow: 0 0 10px rgba(0,255,255,0.5);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#gesture-info {
+    background: rgba(20, 20, 30, 0.7);
+    padding: 15px 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.1);
+}
+
+#gesture-info p {
+    margin: 0 0 8px 0;
+    font-weight: bold;
+    color: #00ffff;
+    font-size: 1.1rem;
+}
+
+#gesture-info ul {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #ff00ff;
+    font-weight: bold;
+    animation: pulse 1s infinite alternate;
+}
+
+#current-shape {
+    color: #ff00ff;
+    font-weight: bold;
+}
+
+@keyframes pulse {
+    from { opacity: 0.6; }
+    to { opacity: 1; }
+}
+
+.video-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 240px;
+    height: 180px;
+    z-index: 10;
+    border: 2px solid #ff00ff;
+    border-radius: 12px;
+    overflow: hidden;
+    display: block;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.4);
+}
+
+#webcam {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scaleX(-1);
+}
