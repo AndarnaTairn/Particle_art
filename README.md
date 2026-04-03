@@ -34,7 +34,7 @@ Each shape is **procedurally generated** using mathematical functions — from T
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/Particle_art.git
+git clone https://github.com/AndarnaTairn/Particle_art.git
 cd Particle_art
 
 # Serve locally (any static server works)
