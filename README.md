@@ -1,4 +1,4 @@
-# ✨ Particle Space — Gesture-Controlled 3D Particle Art
+#  Particle Space — Gesture-Controlled 3D Particle Art
 
 An interactive 3D particle system that morphs **10,000 particles** into stunning shapes — all controlled in real-time using **hand gestures** via your webcam.
 
@@ -6,31 +6,31 @@ Built with **Three.js** for GPU-accelerated rendering and **MediaPipe Hand Landm
 
 ![Particle Space Preview](./preview.png)
 
-## 🎮 Gesture Controls
+##  Gesture Controls
 
 | Gesture | Action |
 |---|---|
-| ✌️ **Pinch** (thumb + index) | Scale particles up / down |
-| 🖐️ **Open / Close hand** | Toggle color palette (Neon ↔ Synthwave) |
-| 👉 **Swipe left / right** | Cycle through shapes |
+|  **Pinch** (thumb + index) | Scale particles up / down |
+|  **Open / Close hand** | Toggle color palette (Neon ↔ Synthwave) |
+|  **Swipe left / right** | Cycle through shapes |
 
-## 🔮 Available Shapes
+##  Available Shapes
 
 | | | |
 |---|---|---|
-| ❤️ Heart | 🌸 Flower | 🪐 Saturn |
-| ⚡ Arc Reactor | 🌍 Globe | 🧬 DNA Helix |
-| 📌 Needles | 🌾 Milkweed | 🍅 Tomato |
+| Heart |  Flower |  Saturn |
+|  Arc Reactor |  Globe | DNA Helix |
+|  Needles |  Milkweed |  Tomato |
 
 Each shape is **procedurally generated** using mathematical functions — from Taubin's Heart surface equation to parametric double-helix DNA strands.
 
-## ⚡ Tech Stack
+##  Tech Stack
 
 - **[Three.js](https://threejs.org/)** — WebGL-powered 3D particle rendering with additive blending & fog
 - **[MediaPipe Tasks Vision](https://developers.google.com/mediapipe)** — Real-time hand landmark detection (21 keypoints) via webcam
 - **Vanilla JS** — Pure ES modules with import maps, zero build tools
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Clone the repository
@@ -43,9 +43,9 @@ npx serve .
 
 Then open `http://localhost:3000`, allow webcam access, and start gesturing!
 
-> ⚠️ **Requirements:** Webcam + modern browser with WebGL support (Chrome, Edge, or Firefox recommended).
+>  **Requirements:** Webcam + modern browser with WebGL support (Chrome, Edge, or Firefox recommended).
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Particle_art/
@@ -56,7 +56,7 @@ Particle_art/
 └── style.css           # UI overlay styling
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to open issues or submit PRs for:
 - New particle shapes
@@ -64,6 +64,6 @@ Contributions are welcome! Feel free to open issues or submit PRs for:
 - Performance optimizations
 - Multi-hand support
 
-## 📄 License
+##  License
 
 MIT License — feel free to use, modify, and share.
