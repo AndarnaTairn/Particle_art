@@ -2,7 +2,7 @@
 
 **Particle Space** is a real-time, gesture-controlled 3D particle system built with **Three.js** and **MediaPipe**. Experience immersive generative art that responds to your hand movements via webcam.
 
-![Particle System Preview](https://via.placeholder.com/800x450.png?text=Particle+Space+Preview)
+![Particle Space Preview](./preview.png)
 
 ##  Interactive Gestures
 
